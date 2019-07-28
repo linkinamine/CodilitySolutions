@@ -28,6 +28,7 @@ package com.company
  */
 object BinaryGap {
 
+    // Score [100%]
     fun solution(N: Int): Int {
         // write your code in Kotlin
         val binary = Integer.toBinaryString(N)
