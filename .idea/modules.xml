@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CodilityChallenges.iml" filepath="$PROJECT_DIR$/CodilityChallenges.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CodilitySolutions.iml" filepath="$PROJECT_DIR$/CodilitySolutions.iml" />
     </modules>
   </component>
 </project>
