@@ -1,4 +1,4 @@
-package com.company
+package com.solutions
 
 /**
  * BinaryGap
@@ -30,9 +30,7 @@ object BinaryGap {
 
     // Score [100%]
     fun solution(N: Int): Int {
-        // write your code in Kotlin
         val binary = Integer.toBinaryString(N)
-
         val resultList = arrayListOf<Int>()
         var countOfZeros = 0
 

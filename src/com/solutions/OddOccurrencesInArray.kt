@@ -1,4 +1,4 @@
-package com.company
+package com.solutions
 
 /**
  * OddOccurrencesInArray
@@ -55,7 +55,6 @@ object OddOccurrencesInArray {
 
     // Score [88%]
     fun solution2(A: IntArray): Int {
-        // write your code in Kotlin
         if (A.size == 1) {
             return A[0]
         }
