@@ -1,4 +1,4 @@
-package com.solutions
+package lesson2
 
 /**
  * OddOccurrencesInArray

@@ -1,4 +1,4 @@
-package com.solutions
+package lesson1
 
 /**
  * BinaryGap
