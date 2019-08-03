@@ -1,5 +1,8 @@
 package main
 
+import java.util.LinkedHashSet
+
+
 object Main {
 
     @JvmStatic
@@ -15,12 +18,15 @@ object Main {
 //        println("PermCheck -> " + PermCheck.solution(intArrayOf(3, 1, 2, 4)))
 //        println("FrogRiverOne -> " + FrogRiverOne.solution(5, intArrayOf(1, 3, 1, 4, 2, 3, 5, 4)))
 
-        val input = arrayOf(
-                charArrayOf('X', '.', 'X', 'X', 'X', '.'),
-                charArrayOf('X', '.', '.', '.', '.', '.'),
-                charArrayOf('X', '.', 'X', '.', 'X', '.'),
-                charArrayOf('.', '.', '.', '.', 'X', '.'),
-                charArrayOf('.', 'X', 'X', '.', 'X', '.'))
-        println(BattleshipsInABoard.countBattleships(input))
+//        val input = arrayOf(
+//                charArrayOf('X', '.', 'X', 'X', 'X', '.'),
+//                charArrayOf('X', '.', '.', '.', '.', '.'),
+//                charArrayOf('X', '.', 'X', '.', 'X', '.'),
+//                charArrayOf('.', '.', '.', '.', 'X', '.'),
+//                charArrayOf('.', 'X', 'X', '.', 'X', '.'))
+//        println(BattleshipsInABoard.countBattleships(input))
+
+        println(Elevator.solution(intArrayOf(60, 80, 40), intArrayOf(2, 3, 5), 5, 2, 200)) // 5
+        println(Elevator.solution(intArrayOf(40, 40, 100, 80, 20), intArrayOf(3, 3, 2, 2, 3), 3, 5, 200)) // 6
     }
 }

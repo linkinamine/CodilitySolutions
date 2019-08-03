@@ -24,3 +24,4 @@ Lesson 4 - Counting Elements
 
 Some other questions:
 - Battleships in a board
+- Elevator problem

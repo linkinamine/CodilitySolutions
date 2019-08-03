@@ -24,8 +24,8 @@ object BattleshipsInABoard {
         for (i in 0 until rowCount) {
             for (j in 0 until columnCount) {
                 if (board[i][j] == '.') continue
-                if (i > 0 && board[i - 1][j] == 'X') continue
-                if (j > 0 && board[i][j - 1] == 'X') continue
+                if (i > 0 && board[i - 1][j] == 'X') continue // vertical ship
+                if (j > 0 && board[i][j - 1] == 'X') continue // horizontal ship
                 countOfBattleShips++
             }
         }
