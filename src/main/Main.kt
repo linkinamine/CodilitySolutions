@@ -26,7 +26,9 @@ object Main {
 //                charArrayOf('.', 'X', 'X', '.', 'X', '.'))
 //        println(BattleshipsInABoard.countBattleships(input))
 
-        println(Elevator.solution(intArrayOf(60, 80, 40), intArrayOf(2, 3, 5), 5, 2, 200)) // 5
-        println(Elevator.solution(intArrayOf(40, 40, 100, 80, 20), intArrayOf(3, 3, 2, 2, 3), 3, 5, 200)) // 6
+//        println(Elevator.solution(intArrayOf(60, 80, 40), intArrayOf(2, 3, 5), 5, 2, 200)) // 5
+ //       println(Elevator.solution(intArrayOf(40, 40, 100, 80, 20), intArrayOf(3, 3, 2, 2, 3), 3, 5, 200)) // 6
+
+        PrintUtil.print(GenomicRangeQuery.solution("CAGCCTA", intArrayOf(2, 5, 0), intArrayOf(4, 5, 6)))
     }
 }

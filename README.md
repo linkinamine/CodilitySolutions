@@ -22,6 +22,9 @@ Lesson 4 - Counting Elements
 - [PermCheck:](https://app.codility.com/programmers/lessons/4-counting_elements/perm_check/) Check whether array A is a permutation.
 - [FrogRiverOne:](https://app.codility.com/programmers/lessons/4-counting_elements/frog_river_one/) Find the earliest time when a frog can jump to the other side of a river.
 
+Lesson 5 - Prefix Sums
+- [GenomicRangeQuery:](https://app.codility.com/programmers/lessons/5-prefix_sums/genomic_range_query/) Find the minimal nucleotide from a range of sequence DNA.
+
 Some other questions:
 - Battleships in a board
 - Elevator problem
