@@ -1,4 +1,4 @@
-package com.solutions
+package main
 
 object PrintUtil {
 
