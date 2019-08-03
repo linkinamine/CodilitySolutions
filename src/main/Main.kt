@@ -13,6 +13,14 @@ object Main {
 //        println("PermMissingElem -> " + PermMissingElem.solution(intArrayOf(2, 3, 1, 5)))
 //        println("TapeEquilibrium -> " + TapeEquilibrium.solution(intArrayOf(3, 1, 2, 4, 3)))
 //        println("PermCheck -> " + PermCheck.solution(intArrayOf(3, 1, 2, 4)))
-        println("FrogRiverOne -> " + FrogRiverOne.solution(5, intArrayOf(1, 3, 1, 4, 2, 3, 5, 4)))
+//        println("FrogRiverOne -> " + FrogRiverOne.solution(5, intArrayOf(1, 3, 1, 4, 2, 3, 5, 4)))
+
+        val input = arrayOf(
+                charArrayOf('X', '.', 'X', 'X', 'X', '.'),
+                charArrayOf('X', '.', '.', '.', '.', '.'),
+                charArrayOf('X', '.', 'X', '.', 'X', '.'),
+                charArrayOf('.', '.', '.', '.', 'X', '.'),
+                charArrayOf('.', 'X', 'X', '.', 'X', '.'))
+        println(BattleshipsInABoard.countBattleships(input))
     }
 }
