@@ -10,6 +10,7 @@ object Main {
 //        PrintUtil.print(CyclicRotation.solution(intArrayOf(3, 8, 9, 7, 6), 3))
 //        println()
 //        println("FrogJmp -> ${FrogJmp.solution(10, 85, 30)}")
-        println("PermMissingElem -> " + PermMissingElem.solution(intArrayOf(2, 3, 1, 5)))
+//        println("PermMissingElem -> " + PermMissingElem.solution(intArrayOf(2, 3, 1, 5)))
+        println("TapeEquilibrium -> " + TapeEquilibrium.solution(intArrayOf(3, 1, 2, 4, 3)))
     }
 }

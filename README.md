@@ -15,4 +15,5 @@ Lesson 2 - Arrays
 
 Lesson 3 - Time Complexity
 - [FrogJmp:](https://app.codility.com/programmers/lessons/3-time_complexity/frog_jmp/) Count minimal number of jumps from position X to Y.
-- [PermMissingElem:](https://app.codility.com/programmers/lessons/3-time_complexity/perm_missing_elem//) Count minimal number of jumps from position X to Y.
+- [PermMissingElem:](https://app.codility.com/programmers/lessons/3-time_complexity/perm_missing_elem/) Find the missing element in a given permutation.
+- [TapeEquilibrium:](https://app.codility.com/programmers/lessons/3-time_complexity/tape_equilibrium/) Minimize the value |(A[0] + ... + A[P-1]) - (A[P] + ... + A[N-1])|.
