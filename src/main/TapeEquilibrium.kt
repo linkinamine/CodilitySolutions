@@ -46,7 +46,6 @@ object TapeEquilibrium {
 
     // Score [100%]
     fun solution(A: IntArray): Int {
-        // write your code in Kotlin
         val result = arrayListOf<Int>()
 
         var leftSum = A[0]

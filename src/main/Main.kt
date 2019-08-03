@@ -11,6 +11,7 @@ object Main {
 //        println()
 //        println("FrogJmp -> ${FrogJmp.solution(10, 85, 30)}")
 //        println("PermMissingElem -> " + PermMissingElem.solution(intArrayOf(2, 3, 1, 5)))
-        println("TapeEquilibrium -> " + TapeEquilibrium.solution(intArrayOf(3, 1, 2, 4, 3)))
+//        println("TapeEquilibrium -> " + TapeEquilibrium.solution(intArrayOf(3, 1, 2, 4, 3)))
+        println("PermCheck -> " + PermCheck.solution(intArrayOf(3, 1, 2, 4)))
     }
 }
