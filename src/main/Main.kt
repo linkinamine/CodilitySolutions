@@ -37,5 +37,8 @@ object Main {
 
         println("MinAvgTwoSlice -> " + MinAvgTwoSlice.solution(intArrayOf(4, 2, 2, 5, 1, 5, 8)))
 
+        println("MaxProductOfThree -> " + MaxProductOfThree.solution(intArrayOf(-3, 1, 2, -2, 5, 6)))
+        println("MaxProductOfThree -> " + MaxProductOfThree.solution(intArrayOf(-6, -7, -10, -4, -5)))
+
     }
 }

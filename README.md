@@ -21,7 +21,7 @@ Lesson 3 - Time Complexity
 Lesson 4 - Counting Elements
 - [PermCheck:](https://app.codility.com/programmers/lessons/4-counting_elements/perm_check/) Check whether array A is a permutation.
 - [FrogRiverOne:](https://app.codility.com/programmers/lessons/4-counting_elements/frog_river_one/) Find the earliest time when a frog can jump to the other side of a river.
-- [MaxCounters:](https://app.codility.com/programmers/lessons/4-counting_elements/max_counters/) Calculate the values of counters after 
+- [MaxCounters:](https://app.codility.com/programmers/lessons/4-counting_elements/max_counters/) Calculate the values of counters after. 
 applying all alternating operations: increase counter by 1; set value of all counters to current maximum.
 - [MissingInteger:](https://app.codility.com/programmers/lessons/4-counting_elements/missing_integer/) Find the smallest positive integer that does not occur in a given sequence.
 
@@ -31,7 +31,8 @@ Lesson 5 - Prefix Sums
 - [MinAvgTwoSlice:](https://app.codility.com/programmers/lessons/5-prefix_sums/min_avg_two_slice/) Find the minimal average of any slice containing at least two elements.
 
 Lesson 6 - Sort
-- [Triangle:](https://app.codility.com/programmers/lessons/6-sorting/triangle/) Determine whether a triangle can be built from a given set of edges
+- [MaxProductOfThree:](https://app.codility.com/programmers/lessons/6-sorting/max_product_of_three/) Maximize A[P] * A[Q] * A[R] for any triplet (P, Q, R).
+- [Triangle:](https://app.codility.com/programmers/lessons/6-sorting/triangle/) Determine whether a triangle can be built from a given set of edges.
 
 Some other questions:
 - Battleships in a board
