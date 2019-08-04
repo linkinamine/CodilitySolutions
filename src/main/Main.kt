@@ -31,6 +31,8 @@ object Main {
 
 //        PrintUtil.print(GenomicRangeQuery.solution("CAGCCTA", intArrayOf(2, 5, 0), intArrayOf(4, 5, 6)))
 
-        PrintUtil.print(MaxCounters.solution(5, intArrayOf(3, 4, 4, 6, 1, 4, 4)))
+//        PrintUtil.print(MaxCounters.solution(5, intArrayOf(3, 4, 4, 6, 1, 4, 4)))
+        println("MissingInteger -> " + MissingInteger.solution(intArrayOf(1, 3, 6, 4, 1, 2)))
+
     }
 }

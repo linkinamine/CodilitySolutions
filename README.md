@@ -23,6 +23,7 @@ Lesson 4 - Counting Elements
 - [FrogRiverOne:](https://app.codility.com/programmers/lessons/4-counting_elements/frog_river_one/) Find the earliest time when a frog can jump to the other side of a river.
 - [MaxCounters:](https://app.codility.com/programmers/lessons/4-counting_elements/max_counters/) Calculate the values of counters after 
 applying all alternating operations: increase counter by 1; set value of all counters to current maximum.
+- [MissingInteger:](https://app.codility.com/programmers/lessons/4-counting_elements/missing_integer/) Find the smallest positive integer that does not occur in a given sequence.
 
 Lesson 5 - Prefix Sums
 - [GenomicRangeQuery:](https://app.codility.com/programmers/lessons/5-prefix_sums/genomic_range_query/) Find the minimal nucleotide from a range of sequence DNA.
