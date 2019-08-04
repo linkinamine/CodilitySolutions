@@ -43,7 +43,8 @@ object Main {
 //        println("Distinct -> " + Distinct.solution(intArrayOf(2, 1, 1, 2, 3, 1)))
 //        println("Brackets -> " + Brackets.solution("((()))"))
 
-        println("Fish -> " + Fish.solution(intArrayOf(4, 3, 2, 1, 5), intArrayOf(0, 1, 0, 0, 0)))
+//        println("Fish -> " + Fish.solution(intArrayOf(4, 3, 2, 1, 5), intArrayOf(0, 1, 0, 0, 0)))
+        println("Nesting -> " + Nesting.solution("(()(())())"))
 
     }
 }
