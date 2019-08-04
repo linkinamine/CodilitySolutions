@@ -29,9 +29,11 @@ Lesson 5 - Prefix Sums
 - [PassingCars:](https://app.codility.com/programmers/lessons/5-prefix_sums/passing_cars/) Count the number of passing cars on the road.
 - [GenomicRangeQuery:](https://app.codility.com/programmers/lessons/5-prefix_sums/genomic_range_query/) Find the minimal nucleotide from a range of sequence DNA.
 - [MinAvgTwoSlice:](https://app.codility.com/programmers/lessons/5-prefix_sums/min_avg_two_slice/) Find the minimal average of any slice containing at least two elements.
+- [CountDiv:]
 
 Lesson 6 - Sort
 - [MaxProductOfThree:](https://app.codility.com/programmers/lessons/6-sorting/max_product_of_three/) Maximize A[P] * A[Q] * A[R] for any triplet (P, Q, R).
+- [Distinct:](https://app.codility.com/programmers/lessons/6-sorting/distinct/) Compute number of distinct values in an array.
 - [Triangle:](https://app.codility.com/programmers/lessons/6-sorting/triangle/) Determine whether a triangle can be built from a given set of edges.
 
 Some other questions:

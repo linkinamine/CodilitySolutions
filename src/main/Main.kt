@@ -35,10 +35,12 @@ object Main {
 
 //        println("Triangle -> " + Triangle.solution(intArrayOf(10, 2, 5, 1, 8, 20)))
 
-        println("MinAvgTwoSlice -> " + MinAvgTwoSlice.solution(intArrayOf(4, 2, 2, 5, 1, 5, 8)))
+//        println("MinAvgTwoSlice -> " + MinAvgTwoSlice.solution(intArrayOf(4, 2, 2, 5, 1, 5, 8)))
+//
+//        println("MaxProductOfThree -> " + MaxProductOfThree.solution(intArrayOf(-3, 1, 2, -2, 5, 6)))
+//        println("MaxProductOfThree -> " + MaxProductOfThree.solution(intArrayOf(-6, -7, -10, -4, -5)))
 
-        println("MaxProductOfThree -> " + MaxProductOfThree.solution(intArrayOf(-3, 1, 2, -2, 5, 6)))
-        println("MaxProductOfThree -> " + MaxProductOfThree.solution(intArrayOf(-6, -7, -10, -4, -5)))
+        println("Distinct -> " + Distinct.solution(intArrayOf(2, 1, 1, 2, 3, 1)))
 
     }
 }

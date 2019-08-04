@@ -45,18 +45,8 @@ object MaxProductOfThree {
         val size = A.size
 
         val result = mutableListOf<Int>()
-
-        if (A[size - 1] > 0 && A[size - 2] > 0 && A[size - 3] > 0) {
-            result.add(A[size - 1] * A[size - 2] *  A[size - 3])
-        }
-
-        if (A[0] < 0 && A[1] < 0){
-            result.add(A[0] * A[1] *  A[size - 1])
-        }
-
-        if (A[0] < 0 && A[1] < 0 && A[2] < 0){
-            result.add(A[size - 1] * A[size - 2] *  A[size - 3])
-        }
+        result.add(A[size - 1] * A[size - 2] *  A[size - 3])
+        result.add(A[0] * A[1] *  A[size - 1])
 
         return result.max() ?: 0
     }
