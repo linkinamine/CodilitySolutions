@@ -39,6 +39,7 @@ Lesson 6 - Sort
 
 Lesson 7 - Stacks and Queues
 - [Brackets:](https://app.codility.com/programmers/lessons/7-stacks_and_queues/brackets/) Determine whether a given string of parentheses (multiple types) is properly nested.
+- [Fish:](https://app.codility.com/programmers/lessons/7-stacks_and_queues/fish/) N voracious fish are moving along a river. Calculate how many fish are alive.
 
 
 Some other questions:
