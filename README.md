@@ -26,6 +26,7 @@ applying all alternating operations: increase counter by 1; set value of all cou
 - [MissingInteger:](https://app.codility.com/programmers/lessons/4-counting_elements/missing_integer/) Find the smallest positive integer that does not occur in a given sequence.
 
 Lesson 5 - Prefix Sums
+- [PassingCars:](https://app.codility.com/programmers/lessons/5-prefix_sums/passing_cars/) Count the number of passing cars on the road.
 - [GenomicRangeQuery:](https://app.codility.com/programmers/lessons/5-prefix_sums/genomic_range_query/) Find the minimal nucleotide from a range of sequence DNA.
 
 Some other questions:
