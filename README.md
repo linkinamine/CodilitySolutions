@@ -29,6 +29,9 @@ Lesson 5 - Prefix Sums
 - [PassingCars:](https://app.codility.com/programmers/lessons/5-prefix_sums/passing_cars/) Count the number of passing cars on the road.
 - [GenomicRangeQuery:](https://app.codility.com/programmers/lessons/5-prefix_sums/genomic_range_query/) Find the minimal nucleotide from a range of sequence DNA.
 
+Lesson 6 - Sort
+- [Triangle:](https://app.codility.com/programmers/lessons/6-sorting/triangle/) Determine whether a triangle can be built from a given set of edges
+
 Some other questions:
 - Battleships in a board
 - Elevator problem
