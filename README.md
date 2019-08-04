@@ -35,6 +35,11 @@ Lesson 6 - Sort
 - [MaxProductOfThree:](https://app.codility.com/programmers/lessons/6-sorting/max_product_of_three/) Maximize A[P] * A[Q] * A[R] for any triplet (P, Q, R).
 - [Distinct:](https://app.codility.com/programmers/lessons/6-sorting/distinct/) Compute number of distinct values in an array.
 - [Triangle:](https://app.codility.com/programmers/lessons/6-sorting/triangle/) Determine whether a triangle can be built from a given set of edges.
+- [NumberOfDiscIntersections:]
+
+Lesson 7 - Stacks and Queues
+- [Brackets:](https://app.codility.com/programmers/lessons/7-stacks_and_queues/brackets/) Determine whether a given string of parentheses (multiple types) is properly nested.
+
 
 Some other questions:
 - Battleships in a board

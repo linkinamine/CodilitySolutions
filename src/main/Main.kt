@@ -40,7 +40,8 @@ object Main {
 //        println("MaxProductOfThree -> " + MaxProductOfThree.solution(intArrayOf(-3, 1, 2, -2, 5, 6)))
 //        println("MaxProductOfThree -> " + MaxProductOfThree.solution(intArrayOf(-6, -7, -10, -4, -5)))
 
-        println("Distinct -> " + Distinct.solution(intArrayOf(2, 1, 1, 2, 3, 1)))
+//        println("Distinct -> " + Distinct.solution(intArrayOf(2, 1, 1, 2, 3, 1)))
+        println("Brackets -> " + Brackets.solution("((()))"))
 
     }
 }
