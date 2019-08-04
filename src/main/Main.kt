@@ -33,7 +33,9 @@ object Main {
 
 //        println("PassingCars -> " + PassingCars.solution(intArrayOf(0, 1, 0, 1, 1)))
 
-        println("Triangle -> " + Triangle.solution(intArrayOf(10, 2, 5, 1, 8, 20)))
+//        println("Triangle -> " + Triangle.solution(intArrayOf(10, 2, 5, 1, 8, 20)))
+
+        println("MinAvgTwoSlice -> " + MinAvgTwoSlice.solution(intArrayOf(4, 2, 2, 5, 1, 5, 8)))
 
     }
 }
