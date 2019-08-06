@@ -1,9 +1,6 @@
 package main
 
-import java.util.ArrayList
-import java.util.Arrays
-import java.util.HashMap
-
+import interview.PrepareHamburgers
 
 object Main {
 
@@ -51,15 +48,20 @@ object Main {
 //        println("Fish -> " + Fish.solution(intArrayOf(4, 3, 2, 1, 5), intArrayOf(0, 1, 0, 0, 0)))
 //        println("Nesting -> " + Nesting.solution("(()(())())"))
 
-        val occupiedSeats = arrayOf(
-                charArrayOf('X', '.', 'X', 'X', 'X', '.'),
-                charArrayOf('X', '.', '.', '.', '.', '.'),
-                charArrayOf('X', '.', 'X', '.', 'X', '.'),
-                charArrayOf('.', '.', '.', '.', 'X', '.'),
-                charArrayOf('.', 'X', 'X', '.', 'X', '.'))
-
-        val occupied = listOf("1A", "1E", "2E", "3I")
-        println(AirPlane.solution(10, occupied))
+//        val occupiedSeats = arrayOf(
+//                charArrayOf('X', '.', 'X', 'X', 'X', '.'),
+//                charArrayOf('X', '.', '.', '.', '.', '.'),
+//                charArrayOf('X', '.', 'X', '.', 'X', '.'),
+//                charArrayOf('.', '.', '.', '.', 'X', '.'),
+//                charArrayOf('.', 'X', 'X', '.', 'X', '.'))
+//
+//        val occupied = listOf("1A", "1E", "2E", "3I")
+//        println(AirPlane.solution(10, occupied))
+//
+        PrintUtil.print(PrepareHamburgers.solution(17, 7)) // (-1, -1)
+//        PrintUtil.print(PrepareHamburgers.solution(16, 7)) // (1, 6)
+//        PrintUtil.print(PrepareHamburgers.solution(40, 15)) // (5, 10)
+//        PrintUtil.print(PrepareHamburgers.solution(2, 1)) // (0, 1)
 
     }
 }
