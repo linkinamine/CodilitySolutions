@@ -1,5 +1,10 @@
 package main
 
+import java.util.ArrayList
+import java.util.Arrays
+import java.util.HashMap
+
+
 object Main {
 
     @JvmStatic
@@ -44,7 +49,17 @@ object Main {
 //        println("Brackets -> " + Brackets.solution("((()))"))
 
 //        println("Fish -> " + Fish.solution(intArrayOf(4, 3, 2, 1, 5), intArrayOf(0, 1, 0, 0, 0)))
-        println("Nesting -> " + Nesting.solution("(()(())())"))
+//        println("Nesting -> " + Nesting.solution("(()(())())"))
+
+        val occupiedSeats = arrayOf(
+                charArrayOf('X', '.', 'X', 'X', 'X', '.'),
+                charArrayOf('X', '.', '.', '.', '.', '.'),
+                charArrayOf('X', '.', 'X', '.', 'X', '.'),
+                charArrayOf('.', '.', '.', '.', 'X', '.'),
+                charArrayOf('.', 'X', 'X', '.', 'X', '.'))
+
+        val occupied = listOf("1A", "1E", "2E", "3I")
+        println(AirPlane.solution(10, occupied))
 
     }
 }
