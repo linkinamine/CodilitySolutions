@@ -46,3 +46,7 @@ Lesson 7 - Stacks and Queues
 Some other questions:
 - Battleships in a board
 - Elevator problem
+- LongestConsecutive
+- OCR
+- PrepareHamburgers
+- Seasons

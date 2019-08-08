@@ -18,6 +18,7 @@ package interview
  */
 object PrepareHamburgers {
 
+    // Question #3 - Done
     // X -> tomatoes, Y -> Cheeses
     fun solution(X: Int, Y: Int): IntArray {
 
