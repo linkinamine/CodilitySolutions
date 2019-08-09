@@ -1,7 +1,5 @@
 package interview
 
-import kotlin.math.max
-
 /**
  * Write a function
  *
@@ -29,37 +27,41 @@ import kotlin.math.max
 object LongestConsecutive {
 
     // Question #4 - Done
-    fun solution(A: IntArray) : Int {
+    fun solution(A: IntArray): Int {
+
+        val maxSequences = mutableListOf<Int>()
 
         var positiveConsecutive = 1
-        var maxPositiveConsecutive = 1
-
         var negativeConsecutive = 1
-        var maxNegativeConsecutive = 1
 
         for (i in 0 until A.size - 1) {
             val difference = A[i] - A[i + 1]
 
             if (difference == 1) { // I have a sequence like -3, -2, -1
-                positiveConsecutive ++
-            } else {
-                maxPositiveConsecutive = positiveConsecutive
-                positiveConsecutive = 1
-            }
-            if (positiveConsecutive > maxPositiveConsecutive) {
-                maxNegativeConsecutive = positiveConsecutive
-            }
+                positiveConsecutive++
 
-            if (difference == -1) { // I have a sequence like  1, 2, 3
-                negativeConsecutive ++
+            } else if (difference == -1) { // I have a sequence like  1, 2, 3
+                negativeConsecutive++
+
             } else {
-                negativeConsecutive = 1
-            }
-            if (negativeConsecutive > maxNegativeConsecutive) {
-                maxNegativeConsecutive = negativeConsecutive
+                if (positiveConsecutive > 1) {
+                    maxSequences.add(positiveConsecutive)
+                    positiveConsecutive = 1
+                }
+                if (negativeConsecutive > 1) {
+                    maxSequences.add(negativeConsecutive)
+                    negativeConsecutive = 1
+                }
             }
         }
 
-        return max(maxPositiveConsecutive, maxNegativeConsecutive)
+        if (positiveConsecutive > 1) {
+            maxSequences.add(positiveConsecutive)
+        }
+        if (negativeConsecutive > 1) {
+            maxSequences.add(negativeConsecutive)
+        }
+
+        return maxSequences.max()!!
     }
 }

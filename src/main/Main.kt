@@ -74,15 +74,15 @@ object Main {
 //        println("------------")
 
         // Additional Examples:
-//        println(LongestConsecutive.solution(intArrayOf(3, 4, 5, -2, -1, 0, 1, 6, 7))) // 4
-//        println(LongestConsecutive.solution(intArrayOf(2, 3, 12, 11, 10, 9))) // 4
-//        println(LongestConsecutive.solution(intArrayOf(4, 5, 6, -4, -3, -2, -1, 0, 2, 3))) // 5
-//        println(LongestConsecutive.solution(intArrayOf(1, 3, 4, -7, -8, -9, -10, -11, 12, 11))) // 5
+        println(LongestConsecutive.solution(intArrayOf(3, 4, 5, -2, -1, 0, 1, 6, 7))) // 4
+        println(LongestConsecutive.solution(intArrayOf(2, 3, 12, 11, 10, 9))) // 4
+        println(LongestConsecutive.solution(intArrayOf(4, 5, 6, -4, -3, -2, -1, 0, 2, 3))) // 5
+        println(LongestConsecutive.solution(intArrayOf(1, 3, 4, -7, -8, -9, -10, -11, 12, 11))) // 5
 
-        println(OCR.solution("A2Le", "2pL1")) // true
-        println(OCR.solution("1p1Le", "2pL1")) // true
-        println(OCR.solution("3Le", "AppLe")) // true
-        println(OCR.solution("ba1", "1Ad")) // false
+//        println(OCR.solution("A2Le", "2pL1")) // true
+//        println(OCR.solution("1p1Le", "2pL1")) // true
+//        println(OCR.solution("3Le", "AppLe")) // true
+//        println(OCR.solution("ba1", "1Ad")) // false
 
 //        println(Seasons.solution(intArrayOf(2, -3, 3, 1, 10, 8, 2, 5, 13, -5, 3, -18)))
     }
