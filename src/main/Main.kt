@@ -67,19 +67,21 @@ object Main {
 //        PrintUtil.print(PrepareHamburgers.solution(40, 15)) // (5, 10)
 //        PrintUtil.print(PrepareHamburgers.solution(2, 1)) // (0, 1)
 
-//        println(LongestConsecutive.solution(intArrayOf(1, 2, 3, 5, 6, 7, 8, 9))) // 5
-//        println(LongestConsecutive.solution(intArrayOf(1, 2, 3, 10, 11, 15))) // 3
-//        println(LongestConsecutive.solution(intArrayOf(5, 4, 2, 1))) // 2
-//        println(LongestConsecutive.solution(intArrayOf(3, 5, 7, 10, 15))) // 1
-//        println(LongestConsecutive.solution(intArrayOf(5, -3, -2, -1, 0, 1, 5, 6, 7))) // 5
-//
-//        println("------------")
+        println(LongestConsecutive.solution(intArrayOf())) // 1
+        println(LongestConsecutive.solution(intArrayOf(5, 6, 7, 8, 9))) // 5
+        println(LongestConsecutive.solution(intArrayOf(1, 2, 3, 5, 6, 7, 8, 9))) // 5
+        println(LongestConsecutive.solution(intArrayOf(1, 2, 3, 10, 11, 15))) // 3
+        println(LongestConsecutive.solution(intArrayOf(5, 4, 2, 1))) // 2
+        println(LongestConsecutive.solution(intArrayOf(3, 5, 7, 10, 15))) // 1
+        println(LongestConsecutive.solution(intArrayOf(5, -3, -2, -1, 0, 1, 5, 6, 7))) // 5
+
+        println("------------")
 
         // Additional Examples:
-//        println(LongestConsecutive.solution(intArrayOf(3, 4, 5, -2, -1, 0, 1, 6, 7))) // 4
-//        println(LongestConsecutive.solution(intArrayOf(2, 3, 12, 11, 10, 9))) // 4
-//        println(LongestConsecutive.solution(intArrayOf(4, 5, 6, -4, -3, -2, -1, 0, 2, 3))) // 5
-//        println(LongestConsecutive.solution(intArrayOf(1, 3, 4, -7, -8, -9, -10, -11, 12, 11))) // 5
+        println(LongestConsecutive.solution(intArrayOf(3, 4, 5, -2, -1, 0, 1, 6, 7))) // 4
+        println(LongestConsecutive.solution(intArrayOf(2, 3, 12, 11, 10, 9))) // 4
+        println(LongestConsecutive.solution(intArrayOf(4, 5, 6, -4, -3, -2, -1, 0, 2, 3))) // 5
+        println(LongestConsecutive.solution(intArrayOf(1, 3, 4, -7, -8, -9, -10, -11, 12, 11))) // 5
 
 //        println(OCR.solution("A2Le", "2pL1")) // true
 //        println(OCR.solution("1p1Le", "2pL1")) // true
@@ -88,6 +90,6 @@ object Main {
 
 //        println(Seasons.solution(intArrayOf(2, -3, 3, 1, 10, 8, 2, 5, 13, -5, 3, -18)))
 
-        println(BinarySearch.solution(intArrayOf(2, 3, 4, 10, 40), 0, 4, 50))
+//        println(BinarySearch.solution(intArrayOf(2, 3, 4, 10, 40), 0, 4, 50))
     }
 }

@@ -1,5 +1,7 @@
 package interview
 
+import kotlin.math.max
+
 /**
  * Write a function
  *
@@ -29,7 +31,8 @@ object LongestConsecutive {
     // Question #4 - Done
     fun solution(A: IntArray): Int {
 
-        val maxSequences = mutableListOf<Int>()
+        var maxPositiveConsecutive = 1
+        var maxNegativeConsecutive = 1
 
         var positiveConsecutive = 1
         var negativeConsecutive = 1
@@ -37,31 +40,26 @@ object LongestConsecutive {
         for (i in 0 until A.size - 1) {
             val difference = A[i] - A[i + 1]
 
-            if (difference == 1) { // I have a sequence like -3, -2, -1
+            if (difference == 1) { // I have a sequence like 3, 2, 1
                 positiveConsecutive++
+
+                if (positiveConsecutive > maxPositiveConsecutive) {  // Update the max value
+                    maxPositiveConsecutive = positiveConsecutive
+                }
 
             } else if (difference == -1) { // I have a sequence like  1, 2, 3
                 negativeConsecutive++
 
-            } else {
-                if (positiveConsecutive > 1) {
-                    maxSequences.add(positiveConsecutive)
-                    positiveConsecutive = 1
+                if (negativeConsecutive > maxNegativeConsecutive) {  // Update the max value
+                    maxNegativeConsecutive = negativeConsecutive
                 }
-                if (negativeConsecutive > 1) {
-                    maxSequences.add(negativeConsecutive)
-                    negativeConsecutive = 1
-                }
+
+            } else { // Reset
+                positiveConsecutive = 1
+                negativeConsecutive = 1
             }
         }
 
-        if (positiveConsecutive > 1) {
-            maxSequences.add(positiveConsecutive)
-        }
-        if (negativeConsecutive > 1) {
-            maxSequences.add(negativeConsecutive)
-        }
-
-        return maxSequences.max()!!
+        return max(maxPositiveConsecutive, maxNegativeConsecutive)
     }
 }
